@@ -2,7 +2,7 @@
 ### Download and change folder
 ```
 cd ~
-git clone https://github.com/flipsidecreations/dotfiles.git
+git clone https://github.com/stuach/dotfiles.git
 
 cd dotfiles
 ```
