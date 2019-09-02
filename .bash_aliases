@@ -1,8 +1,25 @@
-alias gti='git'
-#alias tmux='tmux -2'
-alias less='less -R'
-alias diff='colordiff'
+### Apt
+alias update='sudo apt-get -y update'
+alias upgrade='sudo apt -y --allow-unauthenticated upgrade && sudo apt autoclean && sudo apt autoremove'
+alias search='apt search'
+alias search-version='apt-cache policy'
+
+### Install and Remove Packages
+alias install='sudo apt-get -y --install-recommends install'
+alias uninstall='sudo apt-get --purge autoremove '
+alias search-installed='sudo dpkg --get-selections '
+
+# Find empty directories
+alias emptyDir='find . -empty -type d -delete'
+
+# System shortcuts
+alias reboot='sudo shutdown -r now'
+alias shutdown='sudo shutdown -h now'
+
+# Typo fixes
+alias nan='nano'
+alias CD='cd'
+alias cdd='cd'
 alias dc='cd'
-alias nethack-online='ssh nethack@nethack.alt.org ; clear'
-alias tron-online='ssh sshtron.zachlatta.com ; clear'
-alias glog='git log --oneline --graph --color --all --decorate'
+alias cd/='cd /'
+alias cd `='cd ~'
