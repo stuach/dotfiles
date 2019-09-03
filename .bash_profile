@@ -5,4 +5,3 @@ if [ -n "$TMUX" ]; then
 fi
 # Trigger ~/.bashrc commands
 . ~/.bashrc
-
