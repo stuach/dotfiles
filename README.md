@@ -3,7 +3,6 @@
 ```
 cd ~
 git clone https://github.com/stuach/dotfiles.git
-
 cd dotfiles
 ```
 ### Run install
