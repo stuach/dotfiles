@@ -12,4 +12,3 @@ for file in $(find . -maxdepth 1 -name ".*" -type f  -printf "%f\n" ); do
 done
 
 echo "Uninstalled"
-
