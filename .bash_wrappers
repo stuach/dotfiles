@@ -23,4 +23,3 @@ whatsgoingon() {
         popd >/dev/null
     done
 }
-
