@@ -21,3 +21,6 @@ alias nan='nano'
 alias CD='cd'
 alias cdd='cd'
 alias dc='cd'
+
+#Remote
+alias orion='sudo ssh sam@192.168.0.37
